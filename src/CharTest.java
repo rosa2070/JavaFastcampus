@@ -30,7 +30,7 @@ public class CharTest {
         int upper1 = lower1 - 32; // 117 - 32 = 85(U)
         System.out.println("upper1 = " + (char)upper1); //85->U
 
-        //Q. '1' + '2' = 3이 나오도록 프로그래밍
+        //Q. '1' + '2' = 3이 나오도록 프로그래밍하시오
         //'1'은 49이고 '2'는 50이다
         int data = '1' + '2';
         System.out.println("data = " + data); // 99
@@ -40,9 +40,5 @@ public class CharTest {
 //        int sum = (i-48)+(j-48);
         int sum = (i-'0')+(j-'0');
         System.out.println("sum = " + sum); //3
-
-
-
-
     }
 }
