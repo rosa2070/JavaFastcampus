@@ -7,7 +7,7 @@ public class MovieTest {
         mv.mmajor="제이크 설리";
         mv.mpart="액션";
         mv.mtime=192;
-        mv.mlevel="12세";
+        mv.mlevel=12;
         System.out.println(mv.mtitle+"\t"+mv.mday+"\t"+ mv.mmajor+"\t"+mv.mpart+"\t"+mv.mtime+"\t"+mv.mlevel);
     }
 }

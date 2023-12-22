@@ -5,5 +5,5 @@ public class Movie {
     public String mmajor;
     public String mpart;
     public int mtime;
-    public String mlevel;
+    public int mlevel;
 }
